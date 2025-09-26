@@ -16,8 +16,15 @@ public class App {
             new Location(37.5800, 126.9800)  // 향원정 이탈 가능
         };
 
+        LocationManager lm = new LocationManager(5.0, 500);
+
+        ProximityManager pm = new ProximityManager(pois, 2, 100.0);
+        lm.addObserver(pm);
+
+
         for (Location g : path) {
             System.out.println("locationManager.updateLocation(" + g + ")");
+            lm.updateLocation(g); // 옵저버한테 알림
             Thread.sleep(600);
         }
     }
