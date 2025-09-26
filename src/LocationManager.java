@@ -1,7 +1,7 @@
 import java.util.List;
 
 class LocationManager implements ILocationSubject {
-    List<ILocationObserver> observers;
+    List<ILocationObserver> observers; // 옵저버 리스트
     Location last; // 마지막 위치
     long lastTsMs; // 마지막 업뎃 시간 (의미없는 업뎃 거르기용)
     double distanceThresholdMeters; // 위치가 이전 위치에서 이 값 이상 움직였을 때만 업데이트 발생
@@ -32,5 +32,10 @@ class LocationManager implements ILocationSubject {
         // 아니면 업데이트
         this.last = cur;
         lastTsMs = now; // 마지막 업뎃 시간 최신화
+
+        // 서브젝트에게 알림
+        for (ILocationObserver observer: observers){
+            observer.onLocationChanged(last);
+        }
     }
 }
