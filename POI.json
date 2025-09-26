@@ -1,0 +1,81 @@
+{
+  "pois": [
+    {
+        "name": "경복궁 향원정",
+        "location": {
+          "latitude": 37.5806903,
+          "longitude": 126.9769632
+        }
+      },
+      {
+        "name": "경복궁 근정전",
+        "location": {
+          "latitude": 37.5806903,
+          "longitude": 126.9769632
+        }
+      },
+      {
+        "name": "경복궁 경회루",
+        "location": {
+          "latitude": 37.5806903,
+          "longitude": 126.9769632
+        }
+      },
+      {
+        "name": "경복궁 자경전 십장생굴뚝",
+        "location": {
+          "latitude": 37.5866061,
+          "longitude": 126.9767743
+        }
+      },
+      {
+        "name": "경복궁 풍기대",
+        "location": {
+          "latitude": 37.5866061,
+          "longitude": 126.9767743
+        }
+      },
+      {
+        "name": "경복궁 아미산의 굴뚝",
+        "location": {
+          "latitude": 37.5866061,
+          "longitude": 126.9767743
+        }
+      },
+      {
+        "name": "경복궁 자경전",
+        "location": {
+          "latitude": 37.5866061,
+          "longitude": 126.9767743
+        }
+      },
+      {
+        "name": "경복궁",
+        "location": {
+          "latitude": 37.5772775,
+          "longitude": 126.97691
+        }
+      },
+      {
+        "name": "경복궁 근정문 및 행각",
+        "location": {
+          "latitude": 37.57814,
+          "longitude": 126.9767
+        }
+      },
+      {
+        "name": "경복궁 사정전",
+        "location": {
+          "latitude": 37.57918,
+          "longitude": 126.9770
+        }
+      },
+      {
+        "name": "경복궁 수정전",
+        "location": {
+          "latitude": 37.57915,
+          "longitude": 126.9760
+        }
+      }
+  ]
+}
